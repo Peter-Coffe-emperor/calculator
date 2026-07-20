@@ -34,7 +34,7 @@ class Control:
             if (a==0):
                 raise Ecveption("Base Error")
             
-            except Exception as e:
-                return ellipsis
-                
-            return pow(a, b)
+        except Exception as e:
+            return ellipsis
+            
+        return pow(a, b)
