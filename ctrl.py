@@ -11,7 +11,16 @@ class Control:
         self.view.btn2.clicked.connect(self.view.clearMessage)
         
     def sum(self, a, b):
-        try:
             return a+b
-        except:
-            return "Calculation Error"
+        
+    def sub(self, a, b):
+            return a-b    
+    
+    def mul(self, a, b):
+            return a*b
+
+    def div(self, a, b):
+            return a/b
+            
+    def div(self, a, b):
+            return pow(a, b)
