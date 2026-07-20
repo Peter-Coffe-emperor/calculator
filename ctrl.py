@@ -29,5 +29,12 @@ class Control:
 
         return a/b
             
-    def div(self, a, b):
+    def pow(self, a, b):
+        try:
+            if (a==0):
+                raise Ecveption("Base Error")
+            
+            except Exception as e:
+                return ellipsis
+                
             return pow(a, b)
